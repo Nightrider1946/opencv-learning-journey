@@ -1,41 +1,87 @@
-# Red Object Tracking with Trajectory Visualization
+# OpenCV Learning Journey
 
-## Overview
+Welcome to my OpenCV Learning Journey repository.
 
-This project tracks a red-colored object in real time using OpenCV.
+This repository documents my progress in learning Computer Vision using OpenCV, starting from image processing fundamentals and gradually moving toward real-time computer vision, AI, and robotics applications.
 
-The system detects the largest red object in the camera frame, calculates its centroid using image moments, and visualizes its movement by drawing a trajectory path.
+## About
 
-## Features
-
-- Real-time webcam processing
-- HSV color segmentation
-- Contour detection
-- Largest object selection
-- Centroid calculation
-- Coordinate display
-- Trajectory visualization
+I am learning OpenCV as part of my robotics and computer vision journey. The goal of this repository is to build practical projects and gain hands-on experience with image processing, object tracking, shape detection, and AI-based vision systems.
 
 ## Technologies Used
 
-- Python
-- OpenCV
-- NumPy
+* Python
+* OpenCV
+* NumPy
 
-## Working
+## Completed Projects
 
-1. Capture video from webcam.
-2. Convert frame from BGR to HSV.
-3. Generate mask for red color.
-4. Find contours.
-5. Select largest contour.
-6. Calculate centroid.
-7. Draw centroid and coordinates.
-8. Draw trajectory showing object movement.
+### 1. Red Object Tracker
 
-## Applications
+Features:
 
-- Object tracking
-- Human-computer interaction
-- Robotics vision systems
-- Surveillance systems
+* HSV Color Detection
+* Contour Detection
+* Largest Object Selection
+* Centroid Calculation
+* Real-Time Coordinate Display
+* Trajectory Visualization
+
+Status: Completed
+
+## Upcoming Projects
+
+### Shape Detector
+
+* Triangle Detection
+* Rectangle Detection
+* Square Detection
+* Circle Detection
+
+### Motion Detector
+
+* Moving Object Detection
+* Frame Differencing
+* Background Subtraction
+
+### ArUco Marker Detector
+
+* Marker Detection
+* Pose Estimation
+* Robotics Applications
+
+### YOLO Object Detection
+
+* Real-Time Object Detection
+* Bounding Boxes
+* Confidence Scores
+
+## Learning Goals
+
+* Master OpenCV fundamentals
+* Build real-time computer vision applications
+* Integrate OpenCV with ROS2
+* Learn YOLO for object detection
+* Apply computer vision in robotics projects
+
+## Repository Structure
+
+opencv-learning-journey/
+
+├── red-object-tracker/
+
+├── shape-detector/
+
+├── motion-detector/
+
+├── aruco-marker-detector/
+
+└── yolo-object-detection/
+
+## Future Direction
+
+This repository will continue to grow as I learn advanced computer vision topics and integrate them into robotics and AI projects.
+
+---
+
+ Feel free to explore the projects and follow my progress in Computer Vision and Robotics.
